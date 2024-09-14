@@ -24,34 +24,38 @@ Before running this project locally, you need to have the following installed on
 
 First, clone the repository to your local machine using Git:
 
-```bash```
+```bash
 git clone https://github.com/VihanPamudya/ToDoApplication.git
+```
 
 ### 2. Install Dependencies
 
 Navigate to the project directory and run the following command to install all the required dependencies:
 
-```bash```
+```bash
 cd ToDoApplication
 npm install
-
+```
 
 Alternatively, if you're using Yarn:
 
-```bash```
+```bash
 cd ToDoApplication
 yarn install
+```
 
 ## Running the App
 
 Once the dependencies are installed, you can start the development server with the following command:
 
-```bash```
+```bash
 npm start
+```
 
 or with Yarn:
 
-```bash```
+```bash
 yarn start
+```
 
 This will open the application in your browser at http://localhost:3000. The app will automatically reload if you make changes to the code.
