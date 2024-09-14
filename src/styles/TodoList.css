@@ -1,0 +1,27 @@
+.list-container {
+  padding: 20px;
+  background-color: #beeef7;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.list-title {
+  color: #595959;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .list-container {
+    margin-bottom: 40px;
+  }
+}
